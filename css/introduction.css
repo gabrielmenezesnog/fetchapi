@@ -1,0 +1,46 @@
+.introduction{
+  margin-bottom: 200px;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+
+  padding: 60px;
+  border-radius: 40px;
+}
+
+.introduction img {
+  position: relative;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.introduction > div:first-child {
+  margin-top: 15vh;
+}
+
+.introduction-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.introduction-items p {
+  align-self: center;
+  text-align: center;
+  max-width: 55ch;
+}
+
+.t1-button:hover {
+  transform: scale(105%);
+}

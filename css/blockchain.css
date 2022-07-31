@@ -1,0 +1,11 @@
+.quotes p {
+  background: #f7f7f7;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1%);
+  border: 1px solid #ededed;
+  padding: 12px;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+  color: #717171;
+  font: 400 0.875rem/1.3125rem "Roboto", sans-serif;
+}

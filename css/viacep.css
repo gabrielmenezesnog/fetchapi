@@ -1,0 +1,51 @@
+.example p {
+  margin-top: 8px;
+  margin-bottom: 40px;
+  max-width: 50ch;
+}
+
+.example {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 60px;
+}
+
+.external-link:hover {
+  transition: 0.2s;
+  transform: scale(120%);
+  background: linear-gradient(115.44deg, #fea9de 9%, #c5f5ff 113.64%);
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 6px;
+}
+
+.viacep-form form {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  gap: 40px;
+  align-items: center;
+}
+
+.viacep-form label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.viacep-form input {
+  background: #f7f7f7;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1%);
+  border: 1px solid #ededed;
+  padding: 12px;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+  color: #717171;
+  font: 400 0.875rem/1.3125rem "Roboto", sans-serif;
+}
+
+::placeholder {
+  color: #b2b2b2;
+  font: 400 0.875rem/1.3125rem "Roboto", sans-serif;
+}

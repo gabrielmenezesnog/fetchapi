@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch para iniciantes</title>
+
+    <meta name="description" content="Gabriel de Menezes Nogueira's online portfolio - front end web developer and UX/UI Design">
+    <link rel=" preload" href="/css/style.css" as="style">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/resources/icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <section class="container introduction">
+        <div class="glass-effect">
+            <div class="introduction-items">
+                <div>
+                    <h1 class="title-h1">Fetch API</h1>
+                    <h4 class="title-h4">para iniciantes</h3>
+                </div>
+                <p class="introduction-text">Você está em um guia completo para iniciantes. Aqui você entenderá o conceito de Fetch API, para que serve e também verá exemplos. Clique no botão abaixo e vamos começar!</p>
+                <a href="#slides" class="t1-button title-h4">começar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container api-examples">
+        <div class="example">
+            <div class="example-title">
+                <h1 class="title-h3">ViaCEP</h1>
+                <a href="https://viacep.com.br/" class="external-link">
+                    <img src="/resources/link.svg" alt="Link externo - ViaCEP">
+                </a>
+            </div>
+            <p class="normal-text">Aqui está sendo utilizada uma API da ViaCEP que fornece informações de localização com base no CEP.</p>
+            <div class="viacep-form">
+                <form action="">
+
+                    <div class="cep">
+                        <label for="CEP" class="title-examples">CEP</label>
+                        <input type="text" id="CEP" placeholder="11111-111">
+                    </div>
+
+                    <div>
+                        <label for="street" class="title-examples">rua</label>
+                        <input type="text" id="street" placeholder="Ex: Rua André Nadolny">
+                    </div>
+                    <div>
+                        <label for="bairro" class="title-examples">bairro</label>
+                        <input type="text" id="bairro" placeholder="Ex: Campo Pequeno">
+                    </div>
+
+                    <div>
+                        <label for="cidade" class="title-examples">cidade</label>
+                        <input type="text" id="cidade" placeholder="Ex: Colombo">
+                    </div>
+
+                    <div>
+                        <label for="UF" class="title-examples">UF</label>
+                        <input type="text" id="UF" placeholder="Ex: PR">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="example">
+            <div class="example-title">
+                <h1 class="title-h3">Blockchain</h1>
+                <a href="https://blockchain.info/ticker" class="external-link">
+                    <img src="/resources/link.svg" alt="Link externo - ViaCEP">
+                </a>
+            </div>
+            <p class="normal-text">Aqui está sendo utilizada uma API do Blockchain que fornece a cotação da Bitcoin em diversas moedas.</p>
+            <div class="quotes">
+                <div class="real">
+                    <h4 class="title-examples">🇧🇷 Real</h4>
+                    <p class="brl"></p>
+                </div>
+
+                <div class="dollar">
+                    <h4 class="title-examples">🇺🇸 Dollar</h4>
+                    <p class="usd"></p>
+                </div>
+
+                <div class="libra">
+                    <h4 class="title-examples">🇬🇧 Libra</h4>
+                    <p class="gbp"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

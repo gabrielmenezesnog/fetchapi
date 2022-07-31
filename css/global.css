@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+input {
+  margin: 0px;
+}
+
+body {
+  background-image: url(/resources/splash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.t1-button {
+  padding: 16px 32px;
+  margin-top: 20px;
+  background: linear-gradient(115.44deg, #df31d8 9%, #20c3e6 113.64%);
+  border-radius: 50px;
+  width: fit-content;
+  color: #fff !important;
+  transition: 0.2s;
+}
+
+.example-title {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.api-examples{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

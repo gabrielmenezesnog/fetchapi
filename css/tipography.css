@@ -1,0 +1,29 @@
+.title-h1 {
+  font: 600 6rem/9rem "Poppins", sans-serif;
+  color: #170016;
+}
+
+.title-h3 {
+  font: 600 1.75rem/2.625rem "Poppins", sans-serif;
+  color: #170016;
+}
+
+.title-h4 {
+  font: 600 1.5rem/2.25rem "Poppins", sans-serif;
+  color: #170016;
+}
+
+.title-examples {
+  font: 400 1.25rem/1.875rem "Poppins", sans-serif;
+  color: #404040;
+}
+
+.introduction-text {
+  font: 400 1.25rem/1.875rem "Roboto", sans-serif;
+  color: #595959;
+}
+
+.normal-text {
+  font: 400 1rem/1.5rem "Roboto", sans-serif;
+  color: #9c9c9c;
+}
